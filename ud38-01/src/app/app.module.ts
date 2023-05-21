@@ -7,13 +7,15 @@ import {HttpClientModule} from '@angular/common/http';
 import { CharacterComponent } from './character/character.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MainComponent } from './main/main.component';
+import { CharacterDetailComponent } from './character-detail/character-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CharacterComponent,
     NavbarComponent,
-    MainComponent
+    MainComponent,
+    CharacterDetailComponent
   ],
   imports: [
     BrowserModule,

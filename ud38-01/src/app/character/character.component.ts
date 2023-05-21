@@ -6,8 +6,8 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './character.component.html',
   styleUrls: ['./character.component.css'],
 })
-export class CharacterComponent {
-  @Input() characters: any;
+export class CharacterComponent implements OnInit{
+  @Input() character: any;
 
   name = '';
   image = '';
@@ -16,8 +16,8 @@ export class CharacterComponent {
 
 
   ngOnInit(): void {
-    this.name = this.characters.name;
-    this.image = this.characters.image;
-    console.log(this.name);
+    this.name = this.character.name;
+    this.image = this.character.image;
+    // console.log(this.name);
   }
 }
