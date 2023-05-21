@@ -1,0 +1,19 @@
+.image{
+  width: 100%;
+}
+.morty{
+  align-items: center;
+  border: 2px solid rgb(185, 185, 185);
+}
+.txt-nombre{
+  justify-content: left;
+  margin-top: 20px;
+  margin: 20px;
+  padding-left: 10px;
+}
+.btn-warning{
+  /* display: flex; */
+  /* justify-content: center; */
+  /* width: 90%; */
+  /* margin-left: 10px; */
+}
